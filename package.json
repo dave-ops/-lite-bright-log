@@ -1,5 +1,5 @@
 {
-  "name": "-lite-bright-log",
+  "name": "@lite-bright/log",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/dave-ops/-lite-bright-log#readme",
@@ -14,6 +14,7 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

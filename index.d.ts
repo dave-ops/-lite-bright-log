@@ -12,10 +12,8 @@ declare module 'lite-bright' {
     formatMessage(message: string | Error): string;
 }
 
-// Interface for a formatter function
 type Formatter = (message: string | Error) => string;
 
-// Main Logger interface
 export interface ILogger {
     _env: string;
     _minimumLevel: ILogLevel;
@@ -27,15 +25,12 @@ export interface ILogger {
         critical: ILogLevelInterface;
     };
 
-    // Getters
     get env(): string;
     get minimumLevel(): ILogLevel;
     get level(): ILogLevel;
 
-    // Setter
     set level(level: ILogLevel);
 
-    // Methods
     toLevel(levelNumber: number): ILogLevelInterface;
     log(logLevel: ILogLevelInterface, message: string | Error, formatter?: Formatter): void;
     timestamp(): void;

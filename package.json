@@ -1,7 +1,7 @@
 {
   "name": "@lite-bright/log",
   "version": "1.0.0",
-  "description": "",
+  "description": "TypeScript Types and Interfaces for early versions of lite-bright logger",
   "homepage": "https://github.com/dave-ops/-lite-bright-log#readme",
   "bugs": {
     "url": "https://github.com/dave-ops/-lite-bright-log/issues"
@@ -10,12 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/dave-ops/-lite-bright-log.git"
   },
-  "license": "ISC",
-  "author": "",
+  "license": "Apache-2.0",
+  "author": "dave-os",
   "type": "commonjs",
   "main": "index.js",
-  "types": "./index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "types": "./index.d.ts"
 }
